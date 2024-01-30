@@ -27,7 +27,7 @@ const getMovies = () => {
             )
             resultsChildren = resultsChildren + element
         }
-        container.innerHTML = resultsChildren;
+        // container.innerHTML = resultsChildren;
     });
 }
 
