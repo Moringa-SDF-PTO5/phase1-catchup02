@@ -1,5 +1,5 @@
-const API_KEY = "6be093a1a0f961d1b8df3150cdc2eae9";
-const ACCESS_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2YmUwOTNhMWEwZjk2MWQxYjhkZjMxNTBjZGMyZWFlOSIsInN1YiI6IjYxMzdjMTM5MWI3Mjk0MDA2NTAwNjUxOCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ZtGZOAxS3ymCmfXGDuFGw_-WDZfNiKIrcY6d3OXHrvQ";
+const API_KEY = "";
+const ACCESS_TOKEN = "";
 const BASE_URL = "https://api.themoviedb.org/3";
 const BASE_IMAGE = "https://image.tmdb.org/t/p/original";
 const REQUEST_HEADER = {
@@ -27,7 +27,7 @@ const getMovies = () => {
             )
             resultsChildren = resultsChildren + element
         }
-        // container.innerHTML = resultsChildren;
+        container.innerHTML = resultsChildren;
     });
 }
 
